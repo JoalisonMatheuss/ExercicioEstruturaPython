@@ -30,3 +30,4 @@ pilha.push(2)
 pilha.push(3)
 
 print(pilha.lista)
+ 
