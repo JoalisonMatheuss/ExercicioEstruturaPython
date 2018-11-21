@@ -31,4 +31,4 @@ class Pilha:
 p = Pilha()
 p.push(1)
 p.push(2)
-p.stack()
+p.stack() 
