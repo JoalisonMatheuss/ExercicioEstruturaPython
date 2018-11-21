@@ -17,3 +17,4 @@ class Stack():
     def peek(self):
         return self.lista[-1]
     
+ 
