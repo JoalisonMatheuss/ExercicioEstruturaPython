@@ -1,30 +1,34 @@
 class Pilha:
     def __init__(self):
-        self.lista = []
+        self.pilha = []
+        self.soma = 0 
+        
     def push(self,valor):
-        self.lista.append(valor)
+        self.pilha.append(valor)
         
     def pop(self):
         if (not(self.isEmpty())):
-            self.lista.pop()
+            self.pilha.pop()
             
     def isEmpty(self):
-        return len(self.lista) == 0
+        return len(self.pilha) == 0
     
     def lenght(self):
-        return len(lista.self)
+        return len(pilha.self)
     
     def peek(self):
-        return self.lista[-1]
+        return self.pilha[-1]
+    
+    def stack(self):
+        lista = []
+        for i in range(len(self.pilha)):
+            lista.append(self.pilha[i])
+        for i in lista:
+            self.soma +=i
+        print("Desempilhada: ",lista)
+        print("Soma: %d"%(self.soma))
 
 p = Pilha()
-
-def pilha(p.lista):
-    soma = 0
-    for i in range(len(p.pilha)):
-        p.pop()
-
-        soma+= p.pilha
-
-
-print(soma)
+p.push(1)
+p.push(2)
+p.stack()
